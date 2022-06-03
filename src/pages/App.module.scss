@@ -5,6 +5,9 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   height: 100vh;
   justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+  max-height: 900px;
 }
 
 .AppStyle {
@@ -12,6 +15,7 @@ body {
   border-radius: 15px;
   height: 55vh;
   margin: 0 2.5vw;
+  max-width: 450px;
 }
 
 .BgTop {
@@ -36,4 +40,24 @@ body {
   right: -25rem;
   width: 600px;
   z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+  .AppStyle {
+    height: 26rem;
+  }
+  
+  .BgTop {
+    height: 80vh;
+    left: -6rem;
+    top: -35%;
+    width: 55vw;
+  }
+
+  .BgBottom {
+    bottom: -30%;
+    height: 80vh;
+    right: -10%;
+    width: 55vw;
+  }
 }
