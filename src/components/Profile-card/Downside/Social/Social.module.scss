@@ -1,0 +1,29 @@
+.Social {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+
+.Social h2 {
+  color: hsl(229, 23%, 23%);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.Social h3 {
+ color: hsl(227, 10%, 46%);
+ font-size: .65rem;
+ font-weight: 400;
+ letter-spacing: 1.25px;
+}
+
+.Followers {
+  padding-left: 2rem;
+}
+
+.Photos {
+  padding-right: 3rem;
+}

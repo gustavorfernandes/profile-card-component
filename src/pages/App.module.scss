@@ -1,9 +1,39 @@
 body {
+  align-items: center;
   background-color: hsl(185, 75%, 39%);
+  display: flex;
+  font-family: 'Kumbh Sans', sans-serif;
+  height: 100vh;
+  justify-content: center;
 }
 
 .AppStyle {
-  background-color: black;
-  height: 50vh;
+  background-color: white;
+  border-radius: 15px;
+  height: 55vh;
+  margin: 0 2.5vw;
 }
 
+.BgTop {
+  background-image: url(../assets/images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  left: -18rem;
+  position: absolute;
+  top: -16rem;
+  width: 500px;
+  z-index: -1;
+}
+
+.BgBottom {
+  background-image: url(../assets/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: -18rem;
+  height: 600px;
+  position: absolute;
+  right: -25rem;
+  width: 600px;
+  z-index: -1;
+}
