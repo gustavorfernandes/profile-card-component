@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/profile-card-component/static/css/main.b0def5ba.css",
+    "main.js": "/profile-card-component/static/js/main.c59bdf58.js",
+    "static/media/bg-pattern-card.svg": "/profile-card-component/static/media/bg-pattern-card.b61daebd3cb4b885d10f.svg",
+    "index.html": "/profile-card-component/index.html",
+    "static/media/bg-pattern-bottom.svg": "/profile-card-component/static/media/bg-pattern-bottom.5043a4fe52880d4096a0.svg",
+    "static/media/bg-pattern-top.svg": "/profile-card-component/static/media/bg-pattern-top.8e93faf895a65b614380.svg",
+    "main.b0def5ba.css.map": "/profile-card-component/static/css/main.b0def5ba.css.map",
+    "main.c59bdf58.js.map": "/profile-card-component/static/js/main.c59bdf58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0def5ba.css",
+    "static/js/main.c59bdf58.js"
+  ]
+}
